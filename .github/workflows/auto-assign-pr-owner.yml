@@ -1,0 +1,2 @@
+- name: Auto assign owner
+uses: DanielSwensson/auto-assign-owner-action@v1.0.6
