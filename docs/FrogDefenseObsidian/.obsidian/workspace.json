@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "af138a47c5cadb45",
+    "type": "split",
+    "children": [
+      {
+        "id": "83d90ecf5ac3afb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed50508b3c8e1f1c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ux_flowchart.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "05ddd9b6ae69afe9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "328457c96c382534",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceecfbb318783a54",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b9d29466cde620f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2517b13d651e91c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "da70f9e69ce19e8f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed5a10959259d9ff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a9c26f00b77d0ef6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f06255d0a3140c14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5571e72dae1631de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ux_flowchart.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf1d3451307af808",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ux_flowchart.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "199f028b8289cac2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2940203362686c90",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ux_flowchart.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2517b13d651e91c3",
+  "lastOpenFiles": [
+    "idea_map_canvas.canvas",
+    "idea_map_img.png",
+    "ideas.md",
+    "ux_flowchart.canvas",
+    "Welcome.md"
+  ]
+}
