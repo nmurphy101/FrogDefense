@@ -13,30 +13,29 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ux_flowchart.canvas",
+                "file": "idea_map_canvas.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -232.32854182401297,
+                  "y": 57.091212973505776,
+                  "zoom": -0.8829306966643373
                 }
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "05ddd9b6ae69afe9",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "328457c96c382534",
+            "id": "23e191dd0c2c8f01",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "code_standards.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ux_flowchart.canvas",
+                "file": "code_standards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ux_flowchart.canvas",
+                "file": "code_standards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ux_flowchart.canvas"
+                "file": "code_standards.md"
               }
             }
           }
@@ -163,9 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2517b13d651e91c3",
+  "active": "23e191dd0c2c8f01",
   "lastOpenFiles": [
     "idea_map_canvas.canvas",
+    "code_standards.md",
     "idea_map_img.png",
     "ideas.md",
     "ux_flowchart.canvas",
