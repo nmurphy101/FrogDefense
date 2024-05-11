@@ -11,6 +11,7 @@ if (isUnpaused) {
 }
 
 
+// Check the current game state
 if (
 	not (gameState == gameResolveState.won) 
 	and currentLevel.level >= array_length(levels) - 1

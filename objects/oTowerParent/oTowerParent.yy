@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oTowersBasic",
+  "%Name":"oTowerParent",
   "eventList":[],
   "managed":true,
-  "name":"oTowersBasic",
+  "name":"oTowerParent",
   "overriddenProperties":[],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/towers.yy",
   },
-  "parentObjectId":{
-    "name":"oTowersParent",
-    "path":"objects/oTowersParent/oTowersParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,7 +23,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"","%Name":"cost","filters":[],"listItems":[],"multiselect":false,"name":"cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"costs.none","varType":0,},
+    {"$GMObjectProperty":"","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Parent","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

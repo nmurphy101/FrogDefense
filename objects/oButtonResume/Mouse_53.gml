@@ -1,1 +1,0 @@
-unpause_game(parentRoom.parentGame.music, parentRoom.pausedSurface, parentRoom.pausedMenuObjs);

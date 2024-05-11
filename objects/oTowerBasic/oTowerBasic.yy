@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oTowersParent",
+  "%Name":"oTowerBasic",
   "eventList":[],
   "managed":true,
-  "name":"oTowersParent",
-  "overriddenProperties":[],
+  "name":"oTowerBasic",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"propertyId":{"name":"name","path":"objects/oTowerParent/oTowerParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Basic",},
+  ],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/towers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oTowerParent",
+    "path":"objects/oTowerParent/oTowerParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,9 +28,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"","%Name":"cost","filters":[],"listItems":[],"multiselect":false,"name":"cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"costs.none","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

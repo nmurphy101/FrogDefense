@@ -8,9 +8,12 @@ if spawnTimer > 0 {
 
 // Timer is up, now we can spawn the next enemy
 if (spawnTimer <= 0) {
+	
 	// Spawner should destroy itself once it's spawned all it's allowed to
 	if (currentSizeSpawned >= enemyCount) {
+		
 		show_debug_message("Spawner is finished")
+		
 		// Set up the next wave in the level and start it if waves are sequential
 		if (not isInAllWave) {
 			parentLevel.currentSpawner = parentLevel.waveList[wave + 1]

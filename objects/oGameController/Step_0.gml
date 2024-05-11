@@ -8,6 +8,7 @@ if (not instance_exists(currentRoomController) and room == rLevel0) {
 		depth: 	objectDepths.controller,
 		parentGame: other,
 	});
+	
 } else if (not instance_exists(currentRoomController)) {
 	// Skip the rest of the gameController step if there's not a roomController
 	exit;
