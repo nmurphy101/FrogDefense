@@ -4,9 +4,7 @@
   "eventList":[],
   "managed":true,
   "name":"oTowersBasic",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"oTowersParent","path":"objects/oTowersParent/oTowersParent.yy",},"propertyId":{"name":"cost","path":"objects/oTowersParent/oTowersParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"costs.basic",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"towers",
     "path":"folders/Objects/towers.yy",
