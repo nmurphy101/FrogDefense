@@ -1,0 +1,10 @@
+{
+    "1": "buyTowerOne",
+    "2": "buyTowerTwo",
+    "3": "buyTowerThree",
+    "4": "buyTowerFour",
+    "5": "buyTowerFive",
+    "e": "timeSpeedUp",
+    "q": "timeSpeedDown",
+    "esc": "pause"
+}
