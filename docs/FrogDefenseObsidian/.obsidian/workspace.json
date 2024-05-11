@@ -33,9 +33,24 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f04a24f0b7223c1c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "idea_map_canvas.canvas",
+                "viewState": {
+                  "x": -134.76045680714697,
+                  "y": -1067.4096241266639,
+                  "zoom": -2.666666666666666
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code_standards.md",
+                "file": "idea_map_canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code_standards.md",
+                "file": "idea_map_canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code_standards.md"
+                "file": "idea_map_canvas.canvas"
               }
             }
           }
@@ -162,10 +177,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23e191dd0c2c8f01",
+  "active": "f04a24f0b7223c1c",
   "lastOpenFiles": [
-    "idea_map_canvas.canvas",
     "code_standards.md",
+    "idea_map_canvas.canvas",
+    "Untitled.md",
     "idea_map_img.png",
     "ideas.md",
     "ux_flowchart.canvas",

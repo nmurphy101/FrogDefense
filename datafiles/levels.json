@@ -1,0 +1,38 @@
+[
+  [
+    [
+      ["fly"], 
+      ["mosquito"], 
+      ["fly", "mosquito"], 
+      ["beetle"], 
+      ["fly", "mosquito", "beetle"], 
+      ["millbug"]
+    ],
+    [
+      [25], 
+      [20], 
+      [18, 10], 
+      [16], 
+      [8, 10, 10], 
+      [10]
+    ]
+  ],
+  [
+    [
+      ["fly"], 
+      ["mosquito"], 
+      ["fly", "mosquito"], 
+      ["beetle"], 
+      ["fly", "mosquito", "beetle"], 
+      ["millbug"]
+    ],
+    [
+      [25], 
+      [20], 
+      [18, 10], 
+      [16], 
+      [8, 10, 10], 
+      [10]
+    ]
+  ]
+]
