@@ -10,33 +10,33 @@ function draw_styled_text(
 	hasOutline = false,
 	fontAsset = fDefault,
 ){	
-	draw_set_font(fontAsset);
-	draw_set_color(color);
-	
+	draw_set_font(fontAsset)
+	draw_set_color(color)
+
 	if (isCentered) {
-		draw_set_halign(fa_center);
-		draw_set_valign(fa_middle);
+		draw_set_halign(fa_center)
+		draw_set_valign(fa_middle)
 	}
 	
 	if (hasShadow) {
-		draw_set_color(c_black);
-		draw_text(positionX - 2, positionY + 2, text);
-		draw_set_color(c_white);
+		draw_set_color(c_black)
+		draw_text_transformed(positionX - 2, positionY + 2, text, uiScale, uiScale, 0)
+		draw_set_color(c_white)
 	}
 	
 	if (hasOutline) {
-		draw_set_color(c_black);
-		draw_text(positionX - 1, positionY + 1, text);
-		draw_text(positionX + 1, positionY - 1, text);
-		draw_text(positionX - 1, positionY - 1, text);
-		draw_text(positionX + 1, positionY + 1, text);
-		draw_set_color(c_white);	
+		draw_set_color(c_black)
+		draw_text_transformed(positionX - 1, positionY + 1, text, uiScale, uiScale, 0)
+		draw_text_transformed(positionX + 1, positionY - 1, text, uiScale, uiScale, 0)
+		draw_text_transformed(positionX - 1, positionY - 1, text, uiScale, uiScale, 0)
+		draw_text_transformed(positionX + 1, positionY + 1, text, uiScale, uiScale, 0)
+		draw_set_color(c_white)
 	}
 
 	draw_text_transformed(positionX, positionY, text, uiScale, uiScale, 0);
 
-	draw_set_halign(fa_left);
-	draw_set_valign(fa_top);
-	draw_set_color(c_white);
-	draw_set_font(fDefault);
+	draw_set_halign(fa_left)
+	draw_set_valign(fa_top)
+	draw_set_color(c_white)
+	draw_set_font(fDefault)
 }

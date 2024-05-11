@@ -47,15 +47,3 @@ enum soundLoop {
 	noLoop,
 	yesLoop,
 }
-
-enum keyboardActions {
-	buy,
-	time,
-	pause,
-}
-
-
-
-
-
-

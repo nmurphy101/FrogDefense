@@ -9,8 +9,6 @@ function unpause_game(_music, _pauseSurface, _pauseMenuObjs = []) {
 	with (_pauseSurface) {
 		draw_clear_alpha(1,0);
 	}
-	surface_free(_pauseSurface);
-	_pauseSurface = -1;
 		
 	// Remove the pause menu button objects
 	for (var i = 0; i < array_length(_pauseMenuObjs); ++i) {

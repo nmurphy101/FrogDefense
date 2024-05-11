@@ -21,7 +21,7 @@ global._keybindings = json_parse(json_file_to_string("keybindings.json"))
 #macro keybindings global._keybindings
 
 // Maping of enemy name's to the object it represents
-// for use in translating the enemy names in the levels.json file
+// for use in translating the enemy name strings in the levels.json file
 global._enemyTypeStruct = {
 	"fly": oFly,
 	"mosquito": oMosquito,
@@ -29,3 +29,15 @@ global._enemyTypeStruct = {
 	"millbug": oMillbug
 }
 #macro enemyTypeStruct global._enemyTypeStruct
+
+// Maping of tower name's to the object it represents
+// for use in translating the enemy name strings in the levels.json file 
+// must remain equal in length to the towerOptions variable in the oPlayer object
+global._towerActionStruct = {
+	"buyTowerOne": [1, oTowerBasic],
+	"buyTowerTwo": [2, oTowerBasic],
+	"buyTowerThree": [3, oTowerBasic],
+	"buyTowerFour": [4, oTowerBasic],
+	"buyTowerFive": [5, oTowerBasic],
+}
+#macro towerActionStruct global._towerActionStruct

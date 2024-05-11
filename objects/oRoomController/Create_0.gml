@@ -15,7 +15,7 @@ players = [instance_create_layer(room_width / 2, room_height / 2, "Instances", o
 
 
 /// Setup all the levels from the levels.json file (in FrogDefense/datafiles)
-// Example:
+// Example result:
 // var _levelEnemies = [
 // 	 [[oFly], [oMosquito], [oFly, oMosquito], [oBeetle], [oFly, oMosquito, oBeetle], [oMillbug]],
 //	 [[25], [20], [18, 10], [16], [8, 10, 10], [10]],
@@ -28,7 +28,7 @@ show_debug_message($"levels: {_levelEnemies}\n\n")
  
 levels = []
 for (var _levelIndex = 0; _levelIndex < array_length(_levelEnemies); ++_levelIndex) {
-	// We want to set the last level as the boss level
+	// Setting the last level as the boss level (this currently only controls the music that's played)
 	// Should change to whatever scheme we want for how often boss levels happen
 	var _isBossLevel = false;
 	if (_levelIndex == array_length(_levelEnemies[0]) - 1) _isBossLevel = true

@@ -18,6 +18,7 @@ for (var i = 1; i < path_get_number(path); i++) {
 	
 	// If the next node is to the left or right
 	if (_prevNode.X != _currentNode.X) {
+		
 		// Place a restricted obj halfway between the two nodes
 		var _x = (_prevNode.X + _currentNode.X) / 2;
 		var _xScale = round((abs(_prevNode.X - _currentNode.X) / self.sprite_width)) + 2;
@@ -32,6 +33,7 @@ for (var i = 1; i < path_get_number(path); i++) {
 	
 	// If the next node is to the up or down
 	} else if (_prevNode.Y != _currentNode.Y) {
+		
 		// Place a restricted obj halfway between the two nodes
 		var _y = (_prevNode.Y + _currentNode.Y) / 2;
 		var _yScale = round((abs(_prevNode.Y - _currentNode.Y) / self.sprite_height)) + 2;

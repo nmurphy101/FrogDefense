@@ -1,2 +1,2 @@
-/// @description Insert description here
+// Utilize the font for titles
 font = fTitle

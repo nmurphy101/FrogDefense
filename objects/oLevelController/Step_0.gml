@@ -1,7 +1,7 @@
 // Only should start level once triggered to start
 if (not isStarted) exit
 
-var _hasActiveLevelSpawner = currentSpawner != -4;
+var _hasActiveLevelSpawner = currentSpawner != noone;
 var _isGameActive = parentRoom.gameState == gameResolveState.active;
 var _hasMoreLevels = level < array_length(parentRoom.levels) - 1;
 
@@ -18,11 +18,14 @@ if (_isGameActive and _hasActiveLevelSpawner) {
 
 // Will only be run once after this level has been started
 } else if (not _hasActiveLevelSpawner) {
-	show_debug_message($"Level: {level}\n{enemyCounts}\n{enemyTypes}")
-	show_debug_message("Creating new enemy spawner")
+	
+	show_debug_message($"Level: {level}\n{enemyCounts}\n{enemyTypes}\nCreating new enemy spawner")
+	
 	for (var _waveIndex = 0; _waveIndex < array_length(enemyCounts); ++_waveIndex) {
 		for (var _enemyIndex = 0; _enemyIndex < array_length(enemyCounts[_waveIndex]); ++_enemyIndex) {
+			
 			show_debug_message($"Wave {_waveIndex}/{array_length(enemyCounts) - 1 }: enemies: {enemyCounts[_waveIndex][_enemyIndex]} of {enemyTypes[_waveIndex][_enemyIndex]}")
+			
 			// Gather the enemy wave counts
 			countAlive += enemyCounts[_waveIndex][_enemyIndex];
 			totalEnemies += enemyCounts[_waveIndex][_enemyIndex];
@@ -38,22 +41,22 @@ if (_isGameActive and _hasActiveLevelSpawner) {
 				wave: _waveIndex,
 				isInAllWave: triggerAllWaves
 			});
-			
 			array_insert(waveList, array_length(waveList), _newSpawner)
 		}
 	}
-	
-	
 
 	if (not triggerAllWaves) {
 		// Set the first wave of the level to current
 		currentSpawner = waveList[0]
+		
 		// Kick off the first wave of the level
 		currentSpawner.isStarted = true	
 		
 	} else {
 		// Set the last wave of the level to current
 		currentSpawner = waveList[array_length(waveList) - 1]
+		
+		// Kick off all the waves at the same time
 		for (var i = 0; i < array_length(waveList); ++i) {
 			waveList[i].isStarted = true
 		}
