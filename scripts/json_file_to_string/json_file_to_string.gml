@@ -7,7 +7,6 @@ function json_file_to_string(fileName) {
 		// while the end of the text file has not been reached
 	    while (!file_text_eof(_fileToRead)) {
 	        var _stringToRead = file_text_read_string(_fileToRead);
-			show_debug_message(_stringToRead)
 		
 			// add string to jsonStr ONLY if the line is NOT a comment (equals 0)
 			if (string_pos("//", _stringToRead) == 0) {
@@ -20,9 +19,6 @@ function json_file_to_string(fileName) {
 			file_text_readln(_fileToRead);
 	    }
 	    file_text_close(_fileToRead);
-		
-		show_debug_message("testing");
-		show_debug_message(_jsonStr);
 	
 	    return _jsonStr;
 	}

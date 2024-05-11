@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="Default" Platform="Windows" Runtime="VM" Device="Default">
+	<Desktop x="0" y="23" width="2560" height="1377" id="19" title="FrogDefense - GameMaker" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="True" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xD;&#xA;    &quot;1&quot;&#xD;&#xA;]" workspace_offset="[-11939, -2773]" workspace_scale="0.1">
+				<Module Command="open_path_editor">
+					<PathEditor pathId="pDefault">
+						<PanArea zoom="1" pan="[0, 0]" />
+						<WorkspaceChain left="-4214.999dpi_px" top="295.33374dpi_px" />
+					</PathEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oMosquito" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="6181.76dpi_px" top="1969.7327dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oBeetle" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="6181.76dpi_px" top="2839.7327dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oRestrictedZone" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="false" activeWindow="physics">
+						<WorkspaceChain left="958.6667dpi_px" top="4655dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="sRestrictedZone">
+						<WorkspaceChain left="-256.33325dpi_px" top="4655dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oFly" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="6181.76dpi_px" top="1099.7327dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="SoundSuccess">
+						<WorkspaceChain left="-9624.659dpi_px" top="332.94507dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="SoundFail">
+						<WorkspaceChain left="-9619.659dpi_px" top="942.94507dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicMenu">
+						<WorkspaceChain left="-8483.486dpi_px" top="319.31348dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicWave">
+						<WorkspaceChain left="-8467.159dpi_px" top="948.94507dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicBoss">
+						<WorkspaceChain left="-8467.159dpi_px" top="1563.9451dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicIdle">
+						<WorkspaceChain left="-8467.159dpi_px" top="2178.945dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicWin">
+						<WorkspaceChain left="-8467.159dpi_px" top="2793.945dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sound_editor">
+					<SoundEditor id="GameMusicLoss">
+						<WorkspaceChain left="-8467.159dpi_px" top="3408.945dpi_px" />
+					</SoundEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="sTowerShopHud">
+						<WorkspaceChain left="-6448.9155dpi_px" top="315.292dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="sButton">
+						<WorkspaceChain left="-6450.194dpi_px" top="975.0281dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oTowersBasic" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="11723.76dpi_px" top="1103.7327dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oTowersParent" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="11715.76dpi_px" top="369.73267dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="985dpi_px" h="309dpi_px">
+						<Script column="0" file="${project_dir}\scripts\create_and_hold_tower\create_and_hold_tower.gml" resource="create_and_hold_tower" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2417.7727dpi_px" top="2293dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\draw_styled_text\draw_styled_text.gml" resource="draw_styled_text" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2435.2034dpi_px" top="4646dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="981dpi_px" h="390dpi_px">
+						<Script column="0" file="${project_dir}\scripts\draw_surface_tint\draw_surface_tint.gml" resource="draw_surface_tint" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2420.5457dpi_px" top="2966dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\unpause_game\unpause_game.gml" resource="unpause_game" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2420.5457dpi_px" top="4016dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\pause_game\pause_game.gml" resource="pause_game" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2420.5457dpi_px" top="3386dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="725dpi_px">
+						<Script column="0" file="${project_dir}\scripts\generalEnums\generalEnums.gml" resource="generalEnums" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2423.9995dpi_px" top="212.51172dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="984dpi_px" h="646dpi_px">
+						<Script column="0" file="${project_dir}\scripts\json_file_to_string\json_file_to_string.gml" resource="json_file_to_string" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2413.9995dpi_px" top="1605dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px">
+						<Script column="0" file="${project_dir}\scripts\statEnums\statEnums.gml" resource="statEnums" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2419.2034dpi_px" top="967.5117dpi_px" />
+					</DocumentWindow>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oPathBuilder" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="958.6667dpi_px" top="3985dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oPathBuilder\Create_0.gml" resource="oPathBuilder" subResource="0_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oPlayer" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="344px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="958.6667dpi_px" top="3251dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="1023dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oPlayer\Create_0.gml" resource="oPlayer" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oPlayer\KeyPress_1.gml" resource="oPlayer" subResource="9_1" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oGameController" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="973dpi_px" top="225dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oGameController\Create_0.gml" resource="oGameController" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oGameController\Step_0.gml" resource="oGameController" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oRoomController" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="336px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="974dpi_px" top="891dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="1169dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oRoomController\Create_0.gml" resource="oRoomController" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oRoomController\Step_0.gml" resource="oRoomController" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oSpawner" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="330px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="959.9479dpi_px" top="2418.9084dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oSpawner\Step_0.gml" resource="oSpawner" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oLevelController" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="parent">
+						<Options>
+							<Window left="0px" right="" top="320px" bottom="" width="100%" height="367px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="974dpi_px" top="1617dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oLevelController\Step_0.gml" resource="oLevelController" subResource="3_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oEnemyParent" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="6181.76dpi_px" top="229.73267dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Create_0.gml" resource="oEnemyParent" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Step_0.gml" resource="oEnemyParent" subResource="3_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Draw_64.gml" resource="oEnemyParent" subResource="8_64" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Draw_0.gml" resource="oEnemyParent" subResource="8_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Other_8.gml" resource="oEnemyParent" subResource="7_8" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oEnemyParent\Destroy_0.gml" resource="oEnemyParent" subResource="1_0" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oButtonParent" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13433.535dpi_px" top="286.51196dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oButtonParent\Draw_64.gml" resource="oButtonParent" subResource="8_64" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oButtonPlay" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13393.535dpi_px" top="1156.512dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oButtonPlay\Mouse_53.gml" resource="oButtonPlay" subResource="6_53" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oButtonMainMenu" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13393.535dpi_px" top="2060.512dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oButtonMainMenu\Mouse_53.gml" resource="oButtonMainMenu" subResource="6_53" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oButtonQuit" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13393.535dpi_px" top="2970.512dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oButtonQuit\Mouse_53.gml" resource="oButtonQuit" subResource="6_53" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oButtonResume" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13393.535dpi_px" top="3880.512dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oButtonResume\Create_0.gml" resource="oButtonResume" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oButtonResume\Mouse_53.gml" resource="oButtonResume" subResource="6_53" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectName="oTextTitle" eventsOpen="true" parentOpen="true" physicsOpen="false" physicsEditorOpen="false" propertiesOpen="true" activeWindow="physics">
+						<Options>
+							<Window left="0px" right="" top="590px" bottom="" width="100%" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeTop, ResizeBottom, DragDisabled, DockingDisabled, Bookmark" title="Variable Definitions" localise_title="ObjectEditor_InstPropsDefs" />
+							<Table columns="4" column_0="1.5*" column_1="1.5*" column_2="1*" column_3="57dpi_px" />
+						</Options>
+						<WorkspaceChain left="-13393.535dpi_px" top="4790.5117dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="600dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}\objects\oTextTitle\Create_0.gml" resource="oTextTitle" subResource="0_0" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}\objects\oButtonParent\Draw_64.gml" resource="oButtonParent" subResource="8_64" overridden_title="False" view_readonly="True" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="DocumentWindow_RestoreLayout" WorkspaceOwner="true">
+					<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="980dpi_px" h="304dpi_px">
+						<Script column="0" file="${project_dir}\scripts\convert_enemy_str_to_obj\convert_enemy_str_to_obj.gml" resource="convert_enemy_str_to_obj" overridden_title="False" view_readonly="False" />
+						<WorkspaceChain left="-2420.5457dpi_px" top="2632dpi_px" />
+					</DocumentWindow>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="rMainMenu" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="rMainMenu">
+						<RoomEditArea>
+							<PanArea zoom="0.53999996" pan="[-1007.5641, -412.2582]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="rLevel0" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="rLevel0">
+						<RoomEditArea>
+							<PanArea zoom="1.3345935" pan="[-91.77621, -68.95539]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="Instances" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eLeft" restore_size="305dpi_px" active_tab="0">
+			<DockTab localise_title="Inspector_WindowTitle" cell_sizes="[157,842]" layout_id="dock_tab_1" layout_guid="6fea1008-d70e-4709-909c-78b49492d021">
+				<Module Command="open_inspector">
+					<Inspector resName="rLevel0">
+						<Window left="0px" right="" top="0px" bottom="" width="340dpi_px" height="600dpi_px" flags="Default" title="Inspector: rLevel0" localise_title="Inspector_WindowTitleArg" />
+					</Inspector>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eRight" restore_size="305dpi_px" active_tab="0">
+			<DockTab localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="c0eebed8-e9c8-4e17-9148-58b276d51597">
+				<Module Command="open_asset_browser">
+					<AssetBrowser sort="AtoZ" foldersFirst="True" zoom="100">
+						<Window left="" right="" top="" bottom="" width="370dpi_px" height="463dpi_px" flags="Default" title="Asset Browser" localise_title="AssetBrowser_Title" />
+					</AssetBrowser>
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="376dpi_px" active_tab="5">
+			<DockTab localise_title="OutputPanel_Output" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="34b73d47-0cc5-4640-86db-cd19f53d4c4e">
+				<Module Command="open_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SearchResults" cell_sizes="[1000]" layout_id="dock_tab_2" layout_guid="63e94ac9-b7ad-4d40-8746-af3b79f5a1f9">
+				<Module Command="open_search_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="OutputPanel_SourceControl" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="4c1ffb24-bedc-4cb5-8a96-157cbc4f70f3">
+				<Module Command="open_sc_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Source Control" localise_title="OutputPanel_SourceControl" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Breakpoints" cell_sizes="[1000]" layout_id="dock_tab_4" layout_guid="65b5641b-87f9-4ba3-9067-92f298a56693">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="CompileErrors" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="a71f429b-31e1-431e-96c6-e48999a467d3">
+				<Module Command="show_compile_errors">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Compile Errors" localise_title="CompileErrors" />
+				</Module>
+			</DockTab>
+			<DockTab localise_title="Feather_LintMessages_Title" cell_sizes="[1000]" layout_id="Diagnostics" layout_guid="13f3a856-20cf-4df7-bf40-384595430c96">
+				<Module Command="feather_lint_messages_initialized">
+					<Window left="" right="" top="" bottom="" width="800px" height="600px" flags="Default" title="Feather Messages" localise_title="Feather_LintMessages_Title" />
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+			<RoomEditor>
+				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="200dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - rLevel0" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="0.3154574" dock_tab_name="Inspector" dock_tab_localise_name="Inspector_WindowTitle" dock_tab_id="dock_tab_1" dock_tab_guid="6fea1008-d70e-4709-909c-78b49492d021" desktop="19" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.RoomEditor.RoomEditorModule>
+	</Modules>
+</Project>

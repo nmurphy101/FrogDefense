@@ -19,8 +19,8 @@ var _hasWonGame = currentRoomController.gameState == gameResolveState.won
 var _isActiveGame = currentRoomController.gameState == gameResolveState.active
 
 if (_isActiveGame) {
-	var _isBossLevel = currentRoomController.levels[currentRoomController.level].isBossLevel
-	var _isLevelStarted = currentRoomController.levels[currentRoomController.level].isStarted
+	var _isBossLevel = currentRoomController.levels[currentRoomController.currentLevel.level].isBossLevel
+	var _isLevelStarted = currentRoomController.levels[currentRoomController.currentLevel.level].isStarted
 	
 	// Game music when during a active level
 	if (not _isBossLevel and _isLevelStarted and not audio_is_playing(GameMusicWave)) {

@@ -21,6 +21,7 @@ global._keybindings = json_parse(json_file_to_string("keybindings.json"))
 #macro keybindings global._keybindings
 
 // Maping of enemy name's to the object it represents
+// for use in translating the enemy names in the levels.json file
 global._enemyTypeStruct = {
 	"fly": oFly,
 	"mosquito": oMosquito,

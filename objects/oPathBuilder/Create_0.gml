@@ -1,3 +1,5 @@
+show_debug_message("Path Building Started")
+
 // The surface that showcases the loading screen
 loadingSurface = surface_create(room_width, room_height)
 
@@ -44,11 +46,13 @@ for (var i = 1; i < path_get_number(path); i++) {
 	}
 }
 
-// Tell the room that the path is built
-parentRoom.hasBuiltPath = true;
-
 // Clear the pause effects, clear the loading surface and unpause the game
 unpause_game(parentRoom.parentGame.music, loadingSurface, loadingMenuObjs);
 
+show_debug_message("Path Building Finished")
+
+// Tell the room that the path is built
+parentRoom.hasBuiltPath = true;
+
 // Trigger the level start
-parentRoom.levels[parentRoom.level].isStarted = true;
+parentRoom.levels[parentRoom.currentLevel.level].isStarted = true;
